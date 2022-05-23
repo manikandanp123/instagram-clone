@@ -1,0 +1,189 @@
+.App {
+  border: 1px solid black;
+  margin: 2px;
+}
+
+.top {
+  display: flex;
+  border-bottom: 2px solid black;
+  line-height: 15px;
+  /* margin: 20px; */
+  padding: 10px;
+}
+
+.mypost {
+  width: 100px;
+  height: 50px;
+  color: darkmagenta;
+  font-size: inherit;
+  position: relative;
+  left: 650%;
+  top: 11%;
+}
+
+.insta {
+  color: darkorchid;
+  font-size: 40px;
+  position: relative;
+  left: 50%;
+  top: 25%;
+}
+
+.circle, .camera {
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  margin-top: 1%;
+  border-radius: 5px;
+}
+
+.btnout {
+  position: relative;
+  left: 60%;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  margin-top: 1%;
+}
+.btnout:hover{
+  background-color: black;
+  color: red;
+
+}
+.circle {
+  position: relative;
+  left: 120%;
+  padding-top: 3px;
+  margin-top: 10%;
+}
+
+.camera {
+  float: right;
+  margin-top: 10%;
+  position: relative;
+  left: 1400%;
+  color: black;
+}
+
+.np {
+  display: flex;
+}
+
+.threedots {
+  position: absolute;
+  right: 5%;
+  font-size: 40px;
+}
+
+.date {
+  position: absolute;
+  right: 5%;
+}
+
+.middle {
+  border: 1px solid black;
+  margin: 20px;
+  position: relative;
+  left: 25%;
+  right: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.img-log {
+  height: 550px;
+  width: 500px;
+}
+
+.headlog {
+  font-family: cursive;
+  font-size: xxx-large;
+}
+
+input {
+  border: 2px solid lightblue;
+  color: lightcoral;
+  width: 250px;
+  height: 30px;
+  margin: 20px;
+  font-size: larger;
+}
+
+.btn {
+  color: white;
+  background-color: blue;
+  width: 100px;
+}
+
+.logfull {
+  margin-top: 50px;
+}
+
+.sh {
+  position: relative;
+  left: -20%;
+}
+
+.reg {
+  border: 1px solid black;
+  text-align: center;
+  margin: 5% 30%;
+}
+
+.sh1 {
+  position: relative;
+  left: -14%;
+  width: 200px;
+}
+
+* {
+  text-decoration: none;
+}
+
+.heart {
+  width: 30px;
+  height: 50px;
+  margin: 5px;
+}
+
+.addpost {
+  text-align: center;
+}
+
+.del {
+  font-size: 20px;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.postCom {
+  width: 360px;
+  height: 40px;
+}
+.allcom{
+  color: red;
+  text-decoration: underline;
+}
+.adpos{
+  background-color: green;
+  width: 75px;
+  height: 30px;
+  border-radius: 5px;
+}
+.adpos:hover{
+  background-color: yellowgreen;
+  color: red;
+}
